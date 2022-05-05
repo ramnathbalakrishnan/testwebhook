@@ -9,9 +9,6 @@ pipeline {
                     echo 'Building the application'
             } 
         }
-    }
-    stages 
-    { 
         stage('test')
         { 
             steps
@@ -19,9 +16,6 @@ pipeline {
                     echo 'Testing the application'
             } 
         } 
-    }
-    stages
-    {
         stage('deploy')
         {
             steps
